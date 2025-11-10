@@ -456,7 +456,10 @@ footer {
 		row-gap: 30px;
 	}
 	@media screen and (max-width: 769px) {
-		address,
+		address {
+			font-size: 16px;
+			text-align: center;
+		}
 		a {
 			font-size: 16px;
 			text-align: center;
@@ -469,7 +472,7 @@ footer {
 		}
 	}
 }
-.social {	
+.social {
 	display: flex;
 	gap: 30px;
 	img {
