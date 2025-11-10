@@ -32,10 +32,7 @@ img {
 
 html {
 	font-family: 'Inter', sans-serif;
-	line-height: normal;
-	&::selection {
-		background-color: #858585;
-	}
+	line-height: normal;	
 	scroll-behavior: smooth;
 }
 :root {
@@ -483,8 +480,4 @@ footer {
 		background: transparent;
 		padding: 5px;
 	}
-}
-
-.material-symbols-outlined {
-	font-size: 50px;
 }
